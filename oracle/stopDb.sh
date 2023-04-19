@@ -1,7 +1,8 @@
 #!/bin/bash
-###############################################
-## Script created by Ahmed Fikri (c) 2020     #
-###############################################
+
+# Author: Ahmed Fikri
+# 2020     
+
 #stop db instance
 if [ -z ${ORACLE_SID+x} ] ; then echo "ORACLE_SID not set";
   exit 1;
