@@ -1,3 +1,7 @@
+#!/bin/bash
+# Author: Ahmed Fikri
+# 2023
+
 # Check that the input file argument is provided
 if [ -z "$1" ]; then
   echo "Usage: $0 <access_log_file>"
